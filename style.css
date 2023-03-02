@@ -74,7 +74,7 @@
 }
 
 .border-para {
-    border-right: 2px solid rgba(0,0,0,.5);
+    border-right: 2px solid #15143966;
     display: flex;
     justify-content: center;
     height: 100px;
@@ -82,12 +82,12 @@
 }
 
 p {
-    color: rgba(0,0,0,.5);
+    color: #15143966;
     padding: 0 20px 50px 20px;
     text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 658px) {
     .border-para {
         border-right: none;
     }
@@ -103,5 +103,15 @@ p {
 
     .hero-image {
         max-width: 70%;
+    }
+
+    br {
+        display: none;
+    }
+  }
+
+  @media (max-width: 900px) {
+    br {
+        display: none;
     }
   }
